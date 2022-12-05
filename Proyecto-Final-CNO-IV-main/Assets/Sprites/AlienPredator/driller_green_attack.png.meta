@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: e3953b1ebbf0f064398af8c5ae28eb67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8315632542397048277
+    second: driller_green_attack_0
+  - first:
+      213: -2744400530199865452
+    second: driller_green_attack_1
+  - first:
+      213: 3358481525607265820
+    second: driller_green_attack_2
+  - first:
+      213: -2543840461010636114
+    second: driller_green_attack_3
+  - first:
+      213: 7676485992151100282
+    second: driller_green_attack_4
+  - first:
+      213: -4357102462362431313
+    second: driller_green_attack_5
+  - first:
+      213: -2005388599121484836
+    second: driller_green_attack_6
+  - first:
+      213: -3459991275631060726
+    second: driller_green_attack_7
+  - first:
+      213: 8466257502063353781
+    second: driller_green_attack_8
+  - first:
+      213: 1684174837395376019
+    second: driller_green_attack_9
+  - first:
+      213: -727198096098868436
+    second: driller_green_attack_10
+  - first:
+      213: 6575274903568233008
+    second: driller_green_attack_11
+  - first:
+      213: 2302357544420813063
+    second: driller_green_attack_12
+  - first:
+      213: 6342055984983607044
+    second: driller_green_attack_13
+  - first:
+      213: 1998613833046351055
+    second: driller_green_attack_14
+  - first:
+      213: 2474081411434083832
+    second: driller_green_attack_15
+  - first:
+      213: -7747336035589784
+    second: driller_green_attack_16
+  - first:
+      213: -6690819347546693161
+    second: driller_green_attack_17
+  - first:
+      213: -13094799758149161
+    second: driller_green_attack_18
+  - first:
+      213: 1829635646562715796
+    second: driller_green_attack_19
+  - first:
+      213: 6818841016822478631
+    second: driller_green_attack_20
+  - first:
+      213: 3076382688577106309
+    second: driller_green_attack_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: driller_green_attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3160
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2adeb3c240f89c80800000000000000
+      internalID: -8315632542397048277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_1
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 3160
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4971b0c124ee9e9d0800000000000000
+      internalID: -2744400530199865452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 3160
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16788e4729bb9e20800000000000000
+      internalID: 3358481525607265820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_3
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 3160
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2f13c149672bcd0800000000000000
+      internalID: -2543840461010636114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2528
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bad6d865b588a60800000000000000
+      internalID: 7676485992151100282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_5
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2528
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa058e835667883c0800000000000000
+      internalID: -4357102462362431313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_6
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 2528
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3eeb0b1bd6b24e0800000000000000
+      internalID: -2005388599121484836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_7
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2528
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095f024444abffc0800000000000000
+      internalID: -3459991275631060726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1896
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd87b87503e7570800000000000000
+      internalID: 8466257502063353781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_9
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1896
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3974a9a67146f5710800000000000000
+      internalID: 1684174837395376019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_10
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1896
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23cfa83f2978e5f0800000000000000
+      internalID: -727198096098868436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_11
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1896
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032b9bfffa1104b50800000000000000
+      internalID: 6575274903568233008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1264
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a42dfcfd93ff10800000000000000
+      internalID: 2302357544420813063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_13
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1264
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40786921152830850800000000000000
+      internalID: 6342055984983607044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_14
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1264
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd8e921b08cbb10800000000000000
+      internalID: 1998613833046351055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_15
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1264
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5fce97fe3b55220800000000000000
+      internalID: 2474081411434083832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861a4a3c6d974eff0800000000000000
+      internalID: -7747336035589784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_17
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 632
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d12b2db04f6523a0800000000000000
+      internalID: -6690819347546693161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_18
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 632
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b208595a71dff0800000000000000
+      internalID: -13094799758149161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_19
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 632
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49843cd3deb246910800000000000000
+      internalID: 1829635646562715796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727319be6c361ae50800000000000000
+      internalID: 6818841016822478631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driller_green_attack_21
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 0
+        width: 872
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581bcc181c181ba20800000000000000
+      internalID: 3076382688577106309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
