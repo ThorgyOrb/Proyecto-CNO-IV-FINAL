@@ -11398,7 +11398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ba136b3171d274292410863a8cd104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossTimer: 10
+  bossTimer: 90
   bossTimerCountdown: 0
   bossTimerText: {fileID: 1702610325}
   bossBattle: 0
