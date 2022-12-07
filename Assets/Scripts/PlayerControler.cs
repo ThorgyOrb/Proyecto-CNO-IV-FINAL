@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerControler : MonoBehaviour
 {
@@ -9,20 +10,26 @@ public class PlayerControler : MonoBehaviour
     private Rigidbody2D playerRB;
     private Animator playerAnim;
     public int pointsPlayer = 0; //score
-    public int healthPlayer = 100; //score
+    public float healthPlayer = 100f; 
     public bool gameOver=false;
+    public TextMeshProUGUI lifeText;
+    public TextMeshProUGUI scoreText;
 
     // Start is called before the first frame update
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
-        
+        healthPlayer=100f;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //update the lifeText to show the remaining health
+        lifeText.text = "Life: " + healthPlayer.ToString("0");
+        //update the scoreText to show the remaining points
+        scoreText.text = "Score: " + pointsPlayer.ToString("0");
         //get jump animation
        
         
@@ -44,6 +51,32 @@ public class PlayerControler : MonoBehaviour
             playerAnim.SetTrigger("Attack");
             AudioManager.Instance.PlayBalazo();
         }
+
+        //move the player to the right and left with the keyboard limits by the camera
+        if (Input.GetKey(KeyCode.D) && transform.position.x < 10)
+        {
+            transform.Translate(Vector2.right * 5 * Time.deltaTime);
+            playerAnim.SetBool("IsRunning", true);
+        }
+        else if (Input.GetKey(KeyCode.A) && transform.position.x > -10)
+        {
+            transform.Translate(Vector2.left * 5 * Time.deltaTime);
+            playerAnim.SetBool("IsRunning", true);
+        }
+        else
+        {
+            playerAnim.SetBool("IsRunning", false);
+        }
+
+
+         if (healthPlayer <= 0)
+            {
+                
+                playerAnim.SetTrigger("Dead");
+                playerAnim.SetBool("Dead", true);
+                RestartGame();
+            
+            }
         
         
 
@@ -59,5 +92,42 @@ public class PlayerControler : MonoBehaviour
             isOnGround = true;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            healthPlayer -= 10;
+            if (healthPlayer <= 0)
+            {
+                
+                playerAnim.SetTrigger("Dead");
+                playerAnim.SetBool("Dead", true);
+               RestartGame();                                  
+            }
+        }
+        
+
+        if (collision.gameObject.tag == "Thunder")
+        {
+            healthPlayer -= 30;
+            if (healthPlayer <= 0)
+            {
+                
+                playerAnim.SetTrigger("Dead");
+                playerAnim.SetBool("Dead", true);
+                RestartGame();
+            
+            }
+        }
+      
+    }
+//restart the game
+    public void RestartGame()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
+
+
 
 }

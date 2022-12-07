@@ -129,4 +129,13 @@ public class BossIA : MonoBehaviour
         //destroy the boss
         Destroy(gameObject);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //if the boss collides with a projectile, decrease the bossHealth
+        if (collision.gameObject.tag == "Playerbullet")
+        {
+            bossHealth -= 10;
+        }
+    }
 }

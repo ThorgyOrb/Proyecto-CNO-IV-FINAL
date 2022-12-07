@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 8956191392702042031}
   m_Layer: 0
   m_Name: Boss Projectile
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,6 +196,7 @@ MonoBehaviour:
   lifeTime: 7
   canChase: 0
   anim: {fileID: 0}
+  pointLight2D: {fileID: 0}
 --- !u!61 &8956191392702042031
 BoxCollider2D:
   m_ObjectHideFlags: 0
